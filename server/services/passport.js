@@ -5,8 +5,8 @@ const keys = require('../config/keys');
 passport.use(
   new GoogleStrategy(
     {
-      clientID: keys.googleClientID,
-      clientSecret: keys.googleClientSecret,
+      clientID:"622589427817-8idgba1ks9pv3p8o54a3ug1hmp8mb613.apps.googleusercontent.com",
+      clientSecret: "AO0DSafmlmLeQpG7ZIBhYebk",
       callbackURL: '/auth/google/callback'
     },
     (accessToken, refreshToken, profile, done) => {
